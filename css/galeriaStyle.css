@@ -24,11 +24,12 @@ img:hover{
     border-radius: 60%;
 }
  .btn{
+    display: inline-block;
     margin: 10px 10px;
-    width: 200px;
-    height: 70px;
+    width: 100px;
+    height: 50px;
     text-decoration: none;
-    padding: 5px;
+    padding: 10px 10px ;
     border-radius: 8px;
     background: rgb(17, 18, 65);
     color: #ffffff;
