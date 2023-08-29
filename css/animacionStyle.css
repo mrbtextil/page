@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+.btn{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: rgb(28, 28, 75);
+    border-radius: 5px 5px;
+}
+.btn a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+
+.uno{
+    width: 200px;
+    height: 200px;
+    background: violet;
+    transition: all 1s ease-in-out;
+    animation: rotacion 1s infinite;
+}
+.dos{
+    width: 200px;
+    height: 200px;
+    background: rgb(219, 83, 219);
+    transform: translate(300px,-90px) skew(30deg);
+    animation: rotacion 1.5s infinite;
+}
+.tres{
+    width: 200px;
+    height: 200px;
+    background: rgb(107, 6, 107);
+    transform: translate(300px,-260px) skew(30deg);
+    animation: rotacion 2s infinite;
+}
+.cuatro{
+    width: 200px;
+    height: 200px;
+    background: rgb(59, 3, 59);
+    transform: translate(300px,-380px) skew(30deg);
+    animation: rotacion 2.5s infinite;
+}
+.cinco{
+    width: 200px;
+    height: 200px;
+    background: rgb(36, 2, 36);
+    transform: translate(300px,-460px) skew(30deg);
+    animation: rotacion 3s infinite;
+}
+.seis{
+    width: 200px;
+    height: 200px;
+    background: rgb(10, 0, 10);
+    transform: translate(300px,-580px) skew(30deg);
+    animation: rotacion 3.5s infinite;
+}
+
+@keyframes rotacion {
+    0%{transform:translate(300px,80px)  skew(30deg) rotate(10deg);}
+    10%{transform:translate(300px,80px)  skew(30deg) rotate(20deg);}
+    20%{transform:translate(300px,80px)  skew(30deg) rotate(30deg);}
+    30%{transform:translate(300px,80px)  skew(30deg) rotate(40deg);}
+    40%{transform:translate(300px,80px)  skew(30deg) rotate(50deg);}
+    50%{transform:translate(300px,80px)  skew(30deg) rotate(60deg);}
+    60%{transform:translate(300px,80px)  skew(30deg) rotate(50deg);}
+    70%{transform:translate(300px,80px)  skew(30deg) rotate(40deg);}
+    80%{transform:translate(300px,80px)  skew(30deg) rotate(30deg);}
+    90%{transform:translate(300px,80px)  skew(30deg) rotate(20deg);}
+    100%{transform:translate(300px,80px)  skew(30deg) rotate(10deg);}
+}
+/*
+.uno:hover{
+    transform: translate(300px,100px) rotate(25deg) skew(25deg);
+}
+.dos:hover{
+    transform: translate(300px,-90px) rotate(40deg) skew(25deg);
+}
+.tres:hover{
+    transform: translate(300px,-260px) rotate(55deg) skew(25deg);
+}
+.cuatro:hover{
+    transform: translate(300px,-380px) rotate(70deg) skew(25deg);
+}
+.cinco:hover{
+    transform: translate(300px,-460px) rotate(85deg) skew(25deg);
+}
+.seis:hover{
+    transform: translate(300px,-580px) rotate(155deg) skew(25deg);
+}
+*/
