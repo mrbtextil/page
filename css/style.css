@@ -72,3 +72,14 @@ body{
     color: aliceblue;
     margin-top: 30px;
 }
+.footer{
+    width: 100%;
+    margin: 5px auto;
+    padding: 10px;
+    background: #083647;
+}
+.footer,p, a, cite{
+    margin: 2px auto;
+    color: #ddf1f9;
+    font-size: 13px;
+}
