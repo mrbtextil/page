@@ -1,22 +1,21 @@
 *{
-    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
     box-sizing: border-box;
 }
 body{
-    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#a0d8ef+0,ddf1f9+28,feffff+100 */
-    background: #a0d8ef; /* Old browsers */
-    background: -moz-linear-gradient(top,  #a0d8ef 0%, #ddf1f9 28%, #feffff 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(top,  #a0d8ef 0%,#ddf1f9 28%,#feffff 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(to bottom,  #a0d8ef 0%,#ddf1f9 28%,#feffff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a0d8ef', endColorstr='#feffff',GradientType=0 ); /* IE6-9 */
-
+    background: #424242;
+    font-family: Arial, Helvetica, sans-serif;
 }
-.nav{
+.container{
+    width: 1200px;
+    margin: 10px auto;
+    background: #ffffff;
+}
+.header .nav{
     list-style: none;
-    width: 90%;
-    padding: 0;
-    background-color: #083647;
-    margin: 20px auto;
+    width: 100%;
+    padding: 5px;
+    background: #083647;
 }
 .nav li{
     display: inline-block;
@@ -31,13 +30,14 @@ body{
 .nav a:hover{
     background-color: tomato;
 }
-.img1 {
-    width: 300px;
+.section1{
+    width: 900px auto;
+    margin: 5px auto;
     height: 300px;
-    background: #ddf1f9;
-    margin: 10px;
-    z-index: 1;
-    transition: all 1s ease-in-out;
+    padding: 20px 20px;
+    background-image: url("imagenes/foto.jpg");
+    
 }
-
-
+.section1 h3 blockquote{
+    color: aliceblue;
+}
