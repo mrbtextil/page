@@ -83,3 +83,32 @@ body{
     color: #ddf1f9;
     font-size: 13px;
 }
+
+@media screen and (max-width:1200px){
+    .container{
+        width: 1000px;
+    }
+    .section1{
+        width: 700px;
+    }
+    .section2{
+        width: 700px;
+    }
+    .section3{
+        width: 700px;
+    }
+}
+@media screen and (max-width:800px){
+    .container{
+        width: 700px;
+    }
+    .section1{
+        width: 500px;
+    }
+    .section2{
+        width: 500px;
+    }
+    .section3{
+        width: 500px;
+    }
+}
