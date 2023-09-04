@@ -84,7 +84,7 @@ body{
     font-size: 13px;
 }
 
-@media screen and (max-width:1200px){
+@media (min-width: 768px) and (max-width:1023px){
     .container{
         width: 1000px;
     }
@@ -98,17 +98,22 @@ body{
         width: 700px;
     }
 }
-@media screen and (max-width:800px){
+@media (min-width:320px) and (max-width:500px){
     .container{
-        width: 700px;
+        width: 100%;
     }
     .section1{
-        width: 500px;
+         width: 14em;
+         height: 30em;
     }
     .section2{
-        width: 500px;
+         width: 14em;
+         height: 30em;
     }
     .section3{
-        width: 500px;
+         width: 14em;
+         height: 30em;
     }
 }
+
+
