@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 800px;
+    margin: 500x auto;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: space-around;
+    background: slategray;
+    flex-wrap: wrap;
+}
+.uno{
+    width: 50px;
+   margin: 10px;
+    height: 50px;
+    background: violet;
+}
