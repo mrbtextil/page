@@ -1,0 +1,35 @@
+
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+.btn{
+    display: inline-block;
+    width: 50px;
+    height: 30px;
+    background: rgb(28, 28, 75);
+    border-radius: 5px 5px;
+}
+.btn a{
+    text-decoration: none;
+    text-align: center;
+    color: aliceblue;
+}
+.container{
+    width: 800px;
+    margin: 20px auto;
+    border: 5px solid;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: minmax(100px, auto) 300px 100px;
+    grid-gap: 20px;
+}
+.container div{
+    background: royalblue;
+    font-size: 30px;
+    color: antiquewhite;
+}
