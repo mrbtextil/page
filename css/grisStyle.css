@@ -20,16 +20,74 @@
     color: aliceblue;
 }
 .container{
-    width: 800px;
+    width: 480px;
     margin: 20px auto;
     border: 5px solid;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: minmax(100px, auto) 300px 100px;
+    grid-template-columns: repeat(auto-fit,minmax(100px,1fr));
     grid-gap: 20px;
 }
 .container div{
     background: royalblue;
     font-size: 30px;
     color: antiquewhite;
+    border: 1px solid;
+}
+.container .uno{
+    background: orangered;
+    grid-column:2 / 3 ;
+    grid-row: 2 / 4;
+}
+.container .tres{
+    background: orangered;
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    justify-self: start;
+    align-self: start;
+}
+.container .seis{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    background: orangered;
+    justify-self: center;
+    align-self: center;
+}
+.container .nueve{
+    width: 40%;
+    height: 40%;
+    text-align: center;
+    background: orangered;
+    justify-self: end;
+    align-self: center;
+}
+.container2{
+    width: 500px;
+    height: 600px;
+    margin: 20px auto;
+    border: 5px solid;
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: repeat(4,1fr);
+    grid-template-areas: "header header header header"
+                         "section section section aside"                                                       
+                         "section section section aside"                                                       
+                         "foter foter foter foter"
+}
+.container2 .header{
+    background: slategray;
+    grid-area: header;
+}
+.container2 .section{
+    background: rgb(14, 104, 194);
+    grid-area: section;
+}
+.container2 .aside{
+    background: rgb(243, 132, 5);
+    grid-area: aside;
+}
+.container2 .foter{
+    background: rgb(47, 102, 156);
+    grid-area: foter;
 }
