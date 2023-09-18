@@ -233,3 +233,34 @@
     left: 7px;
     box-shadow: -65px 0 #fff ;
 }
+.corona{
+    width: 300px;
+    height: 180px;
+    background: yellow;
+    margin: 50px;
+    border-top: 160px solid yellow;
+    border-left:28px solid #fff;
+    border-right: 25px solid #fff;
+    position: relative;
+}
+.picosCorona{
+    width: 100px;
+    height: 140px;
+    border-radius: 50%;
+    background: #fff;
+    position: absolute;
+    top: -230px;
+    left: -25px;
+    box-shadow: 97px -10px #fff, 195px 0 #fff;
+}
+.circulosCorona{
+    width: 30px;
+    height: 30px;
+    background: yellow;
+    position: absolute;
+    border-radius: 50%;
+    top: -170px;
+    left: -38px;
+    z-index: 1;
+    box-shadow: 100px -10px yellow, 195px -10px yellow, 295px 0 yellow;
+}
