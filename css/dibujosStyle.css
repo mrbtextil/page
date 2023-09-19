@@ -264,3 +264,42 @@
     z-index: 1;
     box-shadow: 100px -10px yellow, 195px -10px yellow, 295px 0 yellow;
 }
+.fastasma{
+    margin: 5px;
+    width: 300px;
+    height: 300px;
+    background: red;
+    border-radius: 50% 50% 10% 10%;
+    position: relative;
+}
+.ojosFantasma{
+    width: 80px;
+    height: 80px;
+    background: #fff;
+    border-radius: 50%;
+    position: absolute;
+    top: 70px;
+    left: 80px;
+    box-shadow: 100px 0 #fff;
+}
+.ojosFantasma::after{
+    content: "";
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: royalblue;
+    position: absolute;
+    top: 30px;
+    left: 35px;
+    box-shadow: 100px 0 royalblue ;
+}
+.piesFantasma{
+    width: 120px;
+    height: 120px;
+    background: #fff;
+    border-radius: 50% 50% 10% 10%;
+    position: absolute;
+    top: 260px;
+    left: -2px;
+    box-shadow: 110px 0 #fff,220px 0 #fff;
+}
